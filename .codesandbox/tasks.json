@@ -1,0 +1,93 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "install-linux": {
+      "name": "install-linux",
+      "command": "npm run install-linux",
+      "runAtStart": false
+    },
+    "preinstall-windows": {
+      "name": "preinstall-windows",
+      "command": "npm run preinstall-windows",
+      "runAtStart": false
+    },
+    "install-windows": {
+      "name": "install-windows",
+      "command": "npm run install-windows",
+      "runAtStart": false
+    },
+    "prebuild-linux": {
+      "name": "prebuild-linux",
+      "command": "npm run prebuild-linux",
+      "runAtStart": false
+    },
+    "prebuild-darwin": {
+      "name": "prebuild-darwin",
+      "command": "npm run prebuild-darwin",
+      "runAtStart": false
+    },
+    "prebuild-windows": {
+      "name": "prebuild-windows",
+      "command": "npm run prebuild-windows",
+      "runAtStart": false
+    },
+    "build-linux": {
+      "name": "build-linux",
+      "command": "npm run build-linux",
+      "runAtStart": false
+    },
+    "build-darwin": {
+      "name": "build-darwin",
+      "command": "npm run build-darwin",
+      "runAtStart": false
+    },
+    "build-windows": {
+      "name": "build-windows",
+      "command": "npm run build-windows",
+      "runAtStart": false
+    },
+    "postbuild-linux": {
+      "name": "postbuild-linux",
+      "command": "npm run postbuild-linux",
+      "runAtStart": false
+    },
+    "postbuild-darwin": {
+      "name": "postbuild-darwin",
+      "command": "npm run postbuild-darwin",
+      "runAtStart": false
+    },
+    "postbuild-windows": {
+      "name": "postbuild-windows",
+      "command": "npm run postbuild-windows",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "init-file-icons": {
+      "name": "init-file-icons",
+      "command": "npm run init-file-icons",
+      "runAtStart": false
+    },
+    "update-file-icons": {
+      "name": "update-file-icons",
+      "command": "npm run update-file-icons",
+      "runAtStart": false
+    }
+  }
+}
